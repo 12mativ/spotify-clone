@@ -1,7 +1,7 @@
 import {create} from "zustand";
 
 interface PlayerStore {
-  ids: string
+  ids: string[]
   activeId?: string
   setId: (id: string) => void
   setIds: (ids: string[]) => void
