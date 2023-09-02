@@ -6,7 +6,7 @@ import useGetSongById from '@/hooks/useGetSongById'
 import useLoadSongUrl from "@/hooks/useLoadSongUrl";
 import {PlayerContent} from "@/components/PlayerContent";
 
-export const Player = (props) => {
+export const Player = () => {
   const player = usePlayer()
   const {song} = useGetSongById(player.activeId)
 
